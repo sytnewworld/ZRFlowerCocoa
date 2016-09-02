@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1C0C3B1A1D78013000CFD4BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0C3B191D78013000CFD4BD /* Default-568h@2x.png */; };
-		1CB972301D795A46001F8D3F /* ZRQRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9722F1D795A46001F8D3F /* ZRQRCodeImage.m */; };
-		1CB972371D795AEF001F8D3F /* NSString+ZREncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB972331D795AEF001F8D3F /* NSString+ZREncryption.m */; };
-		1CB972381D795AEF001F8D3F /* NSUserDefaults+ZRSaveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB972361D795AEF001F8D3F /* NSUserDefaults+ZRSaveObject.m */; };
-		1CB972481D795AFA001F8D3F /* UIButton+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9723B1D795AFA001F8D3F /* UIButton+ZRAddition.m */; };
-		1CB972491D795AFA001F8D3F /* UIColor+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9723E1D795AFA001F8D3F /* UIColor+ZRAddition.m */; };
-		1CB9724A1D795AFA001F8D3F /* UILabel+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB972411D795AFA001F8D3F /* UILabel+ZRAddition.m */; };
-		1CB9724C1D795AFA001F8D3F /* UITextField+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB972471D795AFA001F8D3F /* UITextField+ZRAddition.m */; };
+		1CB0C1D91D7972CE00A3E6F5 /* NSString+ZREncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1C31D7972CE00A3E6F5 /* NSString+ZREncryption.m */; };
+		1CB0C1DA1D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1C61D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m */; };
+		1CB0C1DB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1CB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m */; };
+		1CB0C1DC1D7972CE00A3E6F5 /* UIColor+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1CE1D7972CE00A3E6F5 /* UIColor+ZRAddition.m */; };
+		1CB0C1DD1D7972CE00A3E6F5 /* UILabel+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1D21D7972CE00A3E6F5 /* UILabel+ZRAddition.m */; };
+		1CB0C1DE1D7972CE00A3E6F5 /* ZRQRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1D51D7972CE00A3E6F5 /* ZRQRCodeImage.m */; };
+		1CB0C1DF1D7972CE00A3E6F5 /* UITextField+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1D81D7972CE00A3E6F5 /* UITextField+ZRAddition.m */; };
 		1CFC5DB61D7832BE0026B341 /* ZRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC5DB01D7832BE0026B341 /* ZRAppDelegate.m */; };
 		1CFC5DB71D7832BE0026B341 /* ZRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC5DB21D7832BE0026B341 /* ZRRootViewController.m */; };
 		1CFC5DBC1D7832EE0026B341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFC5DB91D7832EE0026B341 /* Assets.xcassets */; };
@@ -24,27 +24,27 @@
 /* Begin PBXFileReference section */
 		1C0C3AF91D77FF2500CFD4BD /* ZRFlowerCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRFlowerCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0C3B191D78013000CFD4BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
-		1CB0C1B61D796AB600A3E6F5 /* ZRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRKit.h; sourceTree = "<group>"; };
-		1CB0C1B81D796B8000A3E6F5 /* ZRFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRFoundation.h; sourceTree = "<group>"; };
-		1CB0C1B91D796BED00A3E6F5 /* ZRFlowerCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRFlowerCocoa.h; sourceTree = "<group>"; };
-		1CB9722E1D795A46001F8D3F /* ZRQRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRQRCodeImage.h; sourceTree = "<group>"; };
-		1CB9722F1D795A46001F8D3F /* ZRQRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRQRCodeImage.m; sourceTree = "<group>"; };
-		1CB972321D795AEF001F8D3F /* NSString+ZREncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZREncryption.h"; sourceTree = "<group>"; };
-		1CB972331D795AEF001F8D3F /* NSString+ZREncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZREncryption.m"; sourceTree = "<group>"; };
-		1CB972351D795AEF001F8D3F /* NSUserDefaults+ZRSaveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+ZRSaveObject.h"; sourceTree = "<group>"; };
-		1CB972361D795AEF001F8D3F /* NSUserDefaults+ZRSaveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+ZRSaveObject.m"; sourceTree = "<group>"; };
-		1CB9723A1D795AFA001F8D3F /* UIButton+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZRAddition.h"; sourceTree = "<group>"; };
-		1CB9723B1D795AFA001F8D3F /* UIButton+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZRAddition.m"; sourceTree = "<group>"; };
-		1CB9723D1D795AFA001F8D3F /* UIColor+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZRAddition.h"; sourceTree = "<group>"; };
-		1CB9723E1D795AFA001F8D3F /* UIColor+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZRAddition.m"; sourceTree = "<group>"; };
-		1CB972401D795AFA001F8D3F /* UILabel+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZRAddition.h"; sourceTree = "<group>"; };
-		1CB972411D795AFA001F8D3F /* UILabel+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZRAddition.m"; sourceTree = "<group>"; };
-		1CB972461D795AFA001F8D3F /* UITextField+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZRAddition.h"; sourceTree = "<group>"; };
-		1CB972471D795AFA001F8D3F /* UITextField+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZRAddition.m"; sourceTree = "<group>"; };
-		1CB9724E1D795BD2001F8D3F /* ZRColorConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRColorConstant.h; sourceTree = "<group>"; };
-		1CB9724F1D795BD2001F8D3F /* ZRConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRConstant.h; sourceTree = "<group>"; };
-		1CB972501D795BD2001F8D3F /* ZRFontConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFontConstant.h; sourceTree = "<group>"; };
-		1CB972511D795BD2001F8D3F /* ZRSizeConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSizeConstant.h; sourceTree = "<group>"; };
+		1CB0C1BB1D7972CE00A3E6F5 /* ZRColorConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRColorConstant.h; sourceTree = "<group>"; };
+		1CB0C1BC1D7972CE00A3E6F5 /* ZRConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRConstant.h; sourceTree = "<group>"; };
+		1CB0C1BD1D7972CE00A3E6F5 /* ZRFontConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFontConstant.h; sourceTree = "<group>"; };
+		1CB0C1BE1D7972CE00A3E6F5 /* ZRSizeConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSizeConstant.h; sourceTree = "<group>"; };
+		1CB0C1BF1D7972CE00A3E6F5 /* ZRFlowerCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFlowerCocoa.h; sourceTree = "<group>"; };
+		1CB0C1C21D7972CE00A3E6F5 /* NSString+ZREncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZREncryption.h"; sourceTree = "<group>"; };
+		1CB0C1C31D7972CE00A3E6F5 /* NSString+ZREncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZREncryption.m"; sourceTree = "<group>"; };
+		1CB0C1C51D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+ZRSaveObject.h"; sourceTree = "<group>"; };
+		1CB0C1C61D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+ZRSaveObject.m"; sourceTree = "<group>"; };
+		1CB0C1C71D7972CE00A3E6F5 /* ZRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFoundation.h; sourceTree = "<group>"; };
+		1CB0C1CA1D7972CE00A3E6F5 /* UIButton+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZRAddition.h"; sourceTree = "<group>"; };
+		1CB0C1CB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZRAddition.m"; sourceTree = "<group>"; };
+		1CB0C1CD1D7972CE00A3E6F5 /* UIColor+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZRAddition.h"; sourceTree = "<group>"; };
+		1CB0C1CE1D7972CE00A3E6F5 /* UIColor+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZRAddition.m"; sourceTree = "<group>"; };
+		1CB0C1CF1D7972CE00A3E6F5 /* ZRKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRKit.h; sourceTree = "<group>"; };
+		1CB0C1D11D7972CE00A3E6F5 /* UILabel+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZRAddition.h"; sourceTree = "<group>"; };
+		1CB0C1D21D7972CE00A3E6F5 /* UILabel+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZRAddition.m"; sourceTree = "<group>"; };
+		1CB0C1D41D7972CE00A3E6F5 /* ZRQRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRQRCodeImage.h; sourceTree = "<group>"; };
+		1CB0C1D51D7972CE00A3E6F5 /* ZRQRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRQRCodeImage.m; sourceTree = "<group>"; };
+		1CB0C1D71D7972CE00A3E6F5 /* UITextField+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZRAddition.h"; sourceTree = "<group>"; };
+		1CB0C1D81D7972CE00A3E6F5 /* UITextField+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZRAddition.m"; sourceTree = "<group>"; };
 		1CFC5DAF1D7832BE0026B341 /* ZRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRAppDelegate.h; sourceTree = "<group>"; };
 		1CFC5DB01D7832BE0026B341 /* ZRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRAppDelegate.m; sourceTree = "<group>"; };
 		1CFC5DB11D7832BE0026B341 /* ZRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRRootViewController.h; sourceTree = "<group>"; };
@@ -82,101 +82,101 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CB9722B1D795A46001F8D3F /* ZRFoundation */ = {
+		1CB0C1BA1D7972CE00A3E6F5 /* ZRConstant */ = {
 			isa = PBXGroup;
 			children = (
-				1CB0C1B81D796B8000A3E6F5 /* ZRFoundation.h */,
-				1CB972311D795AEF001F8D3F /* NSString */,
-				1CB972341D795AEF001F8D3F /* NSUserDefaults */,
+				1CB0C1BB1D7972CE00A3E6F5 /* ZRColorConstant.h */,
+				1CB0C1BC1D7972CE00A3E6F5 /* ZRConstant.h */,
+				1CB0C1BD1D7972CE00A3E6F5 /* ZRFontConstant.h */,
+				1CB0C1BE1D7972CE00A3E6F5 /* ZRSizeConstant.h */,
+			);
+			path = ZRConstant;
+			sourceTree = "<group>";
+		};
+		1CB0C1C01D7972CE00A3E6F5 /* ZRFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0C1C71D7972CE00A3E6F5 /* ZRFoundation.h */,
+				1CB0C1C11D7972CE00A3E6F5 /* NSString */,
+				1CB0C1C41D7972CE00A3E6F5 /* NSUserDefaults */,
 			);
 			path = ZRFoundation;
 			sourceTree = "<group>";
 		};
-		1CB9722C1D795A46001F8D3F /* ZRKit */ = {
+		1CB0C1C11D7972CE00A3E6F5 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				1CB0C1B61D796AB600A3E6F5 /* ZRKit.h */,
-				1CB972391D795AFA001F8D3F /* ZRButton */,
-				1CB9723C1D795AFA001F8D3F /* ZRColor */,
-				1CB9723F1D795AFA001F8D3F /* ZRLabel */,
-				1CB972451D795AFA001F8D3F /* ZRTextField */,
-				1CB9722D1D795A46001F8D3F /* ZRQRCode */,
-			);
-			path = ZRKit;
-			sourceTree = "<group>";
-		};
-		1CB9722D1D795A46001F8D3F /* ZRQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				1CB9722E1D795A46001F8D3F /* ZRQRCodeImage.h */,
-				1CB9722F1D795A46001F8D3F /* ZRQRCodeImage.m */,
-			);
-			path = ZRQRCode;
-			sourceTree = "<group>";
-		};
-		1CB972311D795AEF001F8D3F /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				1CB972321D795AEF001F8D3F /* NSString+ZREncryption.h */,
-				1CB972331D795AEF001F8D3F /* NSString+ZREncryption.m */,
+				1CB0C1C21D7972CE00A3E6F5 /* NSString+ZREncryption.h */,
+				1CB0C1C31D7972CE00A3E6F5 /* NSString+ZREncryption.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
 		};
-		1CB972341D795AEF001F8D3F /* NSUserDefaults */ = {
+		1CB0C1C41D7972CE00A3E6F5 /* NSUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				1CB972351D795AEF001F8D3F /* NSUserDefaults+ZRSaveObject.h */,
-				1CB972361D795AEF001F8D3F /* NSUserDefaults+ZRSaveObject.m */,
+				1CB0C1C51D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.h */,
+				1CB0C1C61D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m */,
 			);
 			path = NSUserDefaults;
 			sourceTree = "<group>";
 		};
-		1CB972391D795AFA001F8D3F /* ZRButton */ = {
+		1CB0C1C81D7972CE00A3E6F5 /* ZRKit */ = {
 			isa = PBXGroup;
 			children = (
-				1CB9723A1D795AFA001F8D3F /* UIButton+ZRAddition.h */,
-				1CB9723B1D795AFA001F8D3F /* UIButton+ZRAddition.m */,
+				1CB0C1CF1D7972CE00A3E6F5 /* ZRKit.h */,
+				1CB0C1C91D7972CE00A3E6F5 /* ZRButton */,
+				1CB0C1CC1D7972CE00A3E6F5 /* ZRColor */,
+				1CB0C1D01D7972CE00A3E6F5 /* ZRLabel */,
+				1CB0C1D31D7972CE00A3E6F5 /* ZRQRCode */,
+				1CB0C1D61D7972CE00A3E6F5 /* ZRTextField */,
+			);
+			path = ZRKit;
+			sourceTree = "<group>";
+		};
+		1CB0C1C91D7972CE00A3E6F5 /* ZRButton */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0C1CA1D7972CE00A3E6F5 /* UIButton+ZRAddition.h */,
+				1CB0C1CB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m */,
 			);
 			path = ZRButton;
 			sourceTree = "<group>";
 		};
-		1CB9723C1D795AFA001F8D3F /* ZRColor */ = {
+		1CB0C1CC1D7972CE00A3E6F5 /* ZRColor */ = {
 			isa = PBXGroup;
 			children = (
-				1CB9723D1D795AFA001F8D3F /* UIColor+ZRAddition.h */,
-				1CB9723E1D795AFA001F8D3F /* UIColor+ZRAddition.m */,
+				1CB0C1CD1D7972CE00A3E6F5 /* UIColor+ZRAddition.h */,
+				1CB0C1CE1D7972CE00A3E6F5 /* UIColor+ZRAddition.m */,
 			);
 			path = ZRColor;
 			sourceTree = "<group>";
 		};
-		1CB9723F1D795AFA001F8D3F /* ZRLabel */ = {
+		1CB0C1D01D7972CE00A3E6F5 /* ZRLabel */ = {
 			isa = PBXGroup;
 			children = (
-				1CB972401D795AFA001F8D3F /* UILabel+ZRAddition.h */,
-				1CB972411D795AFA001F8D3F /* UILabel+ZRAddition.m */,
+				1CB0C1D11D7972CE00A3E6F5 /* UILabel+ZRAddition.h */,
+				1CB0C1D21D7972CE00A3E6F5 /* UILabel+ZRAddition.m */,
 			);
 			path = ZRLabel;
 			sourceTree = "<group>";
 		};
-		1CB972451D795AFA001F8D3F /* ZRTextField */ = {
+		1CB0C1D31D7972CE00A3E6F5 /* ZRQRCode */ = {
 			isa = PBXGroup;
 			children = (
-				1CB972461D795AFA001F8D3F /* UITextField+ZRAddition.h */,
-				1CB972471D795AFA001F8D3F /* UITextField+ZRAddition.m */,
+				1CB0C1D41D7972CE00A3E6F5 /* ZRQRCodeImage.h */,
+				1CB0C1D51D7972CE00A3E6F5 /* ZRQRCodeImage.m */,
 			);
-			path = ZRTextField;
+			path = ZRQRCode;
 			sourceTree = "<group>";
 		};
-		1CB9724D1D795BD2001F8D3F /* ZRConstant */ = {
+		1CB0C1D61D7972CE00A3E6F5 /* ZRTextField */ = {
 			isa = PBXGroup;
 			children = (
-				1CB9724E1D795BD2001F8D3F /* ZRColorConstant.h */,
-				1CB9724F1D795BD2001F8D3F /* ZRConstant.h */,
-				1CB972501D795BD2001F8D3F /* ZRFontConstant.h */,
-				1CB972511D795BD2001F8D3F /* ZRSizeConstant.h */,
+				1CB0C1D71D7972CE00A3E6F5 /* UITextField+ZRAddition.h */,
+				1CB0C1D81D7972CE00A3E6F5 /* UITextField+ZRAddition.m */,
 			);
-			path = ZRConstant;
+			path = ZRTextField;
 			sourceTree = "<group>";
 		};
 		1CFC5DAB1D7832BE0026B341 /* Example */ = {
@@ -205,10 +205,10 @@
 		1CFC5DBF1D78330D0026B341 /* ZRFlowerCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				1CB0C1B91D796BED00A3E6F5 /* ZRFlowerCocoa.h */,
-				1CB9724D1D795BD2001F8D3F /* ZRConstant */,
-				1CB9722B1D795A46001F8D3F /* ZRFoundation */,
-				1CB9722C1D795A46001F8D3F /* ZRKit */,
+				1CB0C1BF1D7972CE00A3E6F5 /* ZRFlowerCocoa.h */,
+				1CB0C1BA1D7972CE00A3E6F5 /* ZRConstant */,
+				1CB0C1C01D7972CE00A3E6F5 /* ZRFoundation */,
+				1CB0C1C81D7972CE00A3E6F5 /* ZRKit */,
 			);
 			path = ZRFlowerCocoa;
 			sourceTree = "<group>";
@@ -283,16 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB0C1DD1D7972CE00A3E6F5 /* UILabel+ZRAddition.m in Sources */,
+				1CB0C1DF1D7972CE00A3E6F5 /* UITextField+ZRAddition.m in Sources */,
+				1CB0C1D91D7972CE00A3E6F5 /* NSString+ZREncryption.m in Sources */,
 				1CFC5DB71D7832BE0026B341 /* ZRRootViewController.m in Sources */,
-				1CB972381D795AEF001F8D3F /* NSUserDefaults+ZRSaveObject.m in Sources */,
+				1CB0C1DE1D7972CE00A3E6F5 /* ZRQRCodeImage.m in Sources */,
 				1CFC5DBE1D7832EE0026B341 /* main.m in Sources */,
-				1CB9724A1D795AFA001F8D3F /* UILabel+ZRAddition.m in Sources */,
-				1CB972371D795AEF001F8D3F /* NSString+ZREncryption.m in Sources */,
-				1CB972481D795AFA001F8D3F /* UIButton+ZRAddition.m in Sources */,
-				1CB972301D795A46001F8D3F /* ZRQRCodeImage.m in Sources */,
-				1CB9724C1D795AFA001F8D3F /* UITextField+ZRAddition.m in Sources */,
+				1CB0C1DC1D7972CE00A3E6F5 /* UIColor+ZRAddition.m in Sources */,
+				1CB0C1DB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m in Sources */,
+				1CB0C1DA1D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m in Sources */,
 				1CFC5DB61D7832BE0026B341 /* ZRAppDelegate.m in Sources */,
-				1CB972491D795AFA001F8D3F /* UIColor+ZRAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
