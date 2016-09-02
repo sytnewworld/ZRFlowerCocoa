@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZRFlowerCocoa"
-  s.version      = "0.0.2"
+  s.version      = "0.0.5"
   s.summary      = "A framework for editting code expediently."
 
   # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                    
                    * use UIKit framework more convenient.
                    * contain a series of practical and efficient objects.
-                   * create a few extension.                                                                                                               
+                   * create a few extensions and constant files.                                                                                                              
                    DESC
 
   s.homepage     = "https://github.com/sytnewworld/ZRFlowerCocoa"
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/sytnewworld/ZRFlowerCocoa.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/sytnewworld/ZRFlowerCocoa.git", :tag => "0.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,9 +96,9 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "ZRFlowerCocoa", "ZRFlowerCocoa/**/*.{h,m}"
-  s.exclude_files = "ZRFlowerCocoa/Exclude"
+  # s.exclude_files = "ZRFlowerCocoa/Exclude"
 
-  # s.public_header_files = "ZRFlowerCocoa/**/*.h"
+  s.public_header_files = "ZRFlowerCocoa/ZRConstant/ZRConstant.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
