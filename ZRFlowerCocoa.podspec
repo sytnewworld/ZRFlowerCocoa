@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZRFlowerCocoa"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "A framework for editting code expediently."
 
   # This description is used to generate tags and improve search results.
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/sytnewworld/ZRFlowerCocoa.git", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/sytnewworld/ZRFlowerCocoa.git", :tag => "0.0.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ZRFlowerCocoa", "ZRFlowerCocoa/**/*.{h,m}"
   # s.exclude_files = "ZRFlowerCocoa/Exclude"
 
-  s.public_header_files = "ZRFlowerCocoa/ZRConstant/ZRConstant.h"
+  # s.public_header_files = "ZRFlowerCocoa/ZRFlowerCocoa.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -134,7 +134,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
