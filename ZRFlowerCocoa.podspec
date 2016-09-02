@@ -1,19 +1,4 @@
-#
-#  Be sure to run `pod spec lint ZRFlowerCocoa.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
-
 Pod::Spec.new do |s|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
 
   s.name         = "ZRFlowerCocoa"
   s.version      = "0.0.7"
@@ -72,7 +57,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "6.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "6.0"
+  s.ios.deployment_target = "6.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -86,6 +71,31 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/sytnewworld/ZRFlowerCocoa.git", :tag => "0.0.7" }
 
+  # Exclude optional Search and Testing modules
+  s.default_subspec = "Core"
+
+  ### Subspecs
+  
+  s.subspec 'Core' do |cs|
+    cs.dependency "ZRFlowerCocoa/ZRConstant"
+    cs.dependency "ZRFlowerCocoa/ZRFoundation"
+    cs.dependency "ZRFlowerCocoa/ZRKit"
+  end 
+
+  s.subspec 'ZRConstant' do |css|
+    css.source_files = "ZRFlowerCocoa/ZRConstant.h", "ZRFlowerCocoa/ZRConstant/**/*"
+  end
+
+  s.subspec 'ZRFoundation' do |fds|
+    fds.source_files  = "ZRFlowerCocoa/ZRFoundation.h", "ZRFlowerCocoa/ZRFoundation/**/*"
+    fds.ios.framework = "Foundation"
+  end
+
+  s.subspec 'ZRKit' do |ks|
+    ks.source_files = "ZRFlowerCocoa/ZRKit.h", "ZRFlowerCocoa/ZRKit/**/*"
+    ks.ios.frameworks = "UIKit", "CoreImage"
+    ks.dependency "ZRFlowerCocoa/ZRConstant"
+  end
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -122,7 +132,10 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "CoreImage", "UIKit"
+  # s.frameworks = "CoreImage", "UIKit"
+
+  
+  
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
