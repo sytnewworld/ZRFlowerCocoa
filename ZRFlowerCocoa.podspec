@@ -83,16 +83,16 @@ Pod::Spec.new do |s|
   end 
 
   s.subspec 'ZRConstant' do |css|
-    css.source_files = "ZRFlowerCocoa/ZRConstant.h", "ZRFlowerCocoa/ZRConstant/**/*"
+    css.source_files = "ZRFlowerCocoa/ZRConstant.h", "ZRFlowerCocoa/ZRConstant/**/*.{h,m}"
   end
 
   s.subspec 'ZRFoundation' do |fds|
-    fds.source_files  = "ZRFlowerCocoa/ZRFoundation.h", "ZRFlowerCocoa/ZRFoundation/**/*"
+    fds.source_files  = "ZRFlowerCocoa/ZRFoundation.h", "ZRFlowerCocoa/ZRFoundation/**/*.{h,m}"
     fds.ios.framework = "Foundation"
   end
 
   s.subspec 'ZRKit' do |ks|
-    ks.source_files = "ZRFlowerCocoa/ZRKit.h", "ZRFlowerCocoa/ZRKit/**/*"
+    ks.source_files = "ZRFlowerCocoa/ZRKit.h", "ZRFlowerCocoa/ZRKit/**/*.{h,m}"
     ks.ios.frameworks = "UIKit", "CoreImage"
     ks.dependency "ZRFlowerCocoa/ZRConstant"
   end
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ZRFlowerCocoa", "ZRFlowerCocoa/**/*.{h,m}"
+  # s.source_files  = "ZRFlowerCocoa", "ZRFlowerCocoa/**/*.{h,m}"
   # s.exclude_files = "ZRFlowerCocoa/Exclude"
 
   # s.public_header_files = "ZRFlowerCocoa/ZRFlowerCocoa.h"
