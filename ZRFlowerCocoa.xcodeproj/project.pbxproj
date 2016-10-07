@@ -10,15 +10,16 @@
 		1C0C3B1A1D78013000CFD4BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0C3B191D78013000CFD4BD /* Default-568h@2x.png */; };
 		1CB0C1D91D7972CE00A3E6F5 /* NSString+ZREncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1C31D7972CE00A3E6F5 /* NSString+ZREncryption.m */; };
 		1CB0C1DA1D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1C61D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m */; };
-		1CB0C1DB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1CB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m */; };
-		1CB0C1DC1D7972CE00A3E6F5 /* UIColor+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1CE1D7972CE00A3E6F5 /* UIColor+ZRAddition.m */; };
-		1CB0C1DD1D7972CE00A3E6F5 /* UILabel+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1D21D7972CE00A3E6F5 /* UILabel+ZRAddition.m */; };
-		1CB0C1DE1D7972CE00A3E6F5 /* ZRQRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1D51D7972CE00A3E6F5 /* ZRQRCodeImage.m */; };
-		1CB0C1DF1D7972CE00A3E6F5 /* UITextField+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0C1D81D7972CE00A3E6F5 /* UITextField+ZRAddition.m */; };
 		1CFC5DB61D7832BE0026B341 /* ZRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC5DB01D7832BE0026B341 /* ZRAppDelegate.m */; };
 		1CFC5DB71D7832BE0026B341 /* ZRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC5DB21D7832BE0026B341 /* ZRRootViewController.m */; };
 		1CFC5DBC1D7832EE0026B341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFC5DB91D7832EE0026B341 /* Assets.xcassets */; };
 		1CFC5DBE1D7832EE0026B341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC5DBB1D7832EE0026B341 /* main.m */; };
+		C685B3891DA7F0FA00E99E2E /* UIButton+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C685B3791DA7F0FA00E99E2E /* UIButton+ZRAddition.m */; };
+		C685B38A1DA7F0FA00E99E2E /* UIColor+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C685B37C1DA7F0FA00E99E2E /* UIColor+ZRAddition.m */; };
+		C685B38B1DA7F0FA00E99E2E /* UIImage+HandlePictures.m in Sources */ = {isa = PBXBuildFile; fileRef = C685B37F1DA7F0FA00E99E2E /* UIImage+HandlePictures.m */; };
+		C685B38C1DA7F0FA00E99E2E /* UILabel+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C685B3821DA7F0FA00E99E2E /* UILabel+ZRAddition.m */; };
+		C685B38D1DA7F0FA00E99E2E /* ZRQRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C685B3851DA7F0FA00E99E2E /* ZRQRCodeImage.m */; };
+		C685B38E1DA7F0FA00E99E2E /* UITextField+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C685B3881DA7F0FA00E99E2E /* UITextField+ZRAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +33,6 @@
 		1CB0C1C31D7972CE00A3E6F5 /* NSString+ZREncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZREncryption.m"; sourceTree = "<group>"; };
 		1CB0C1C51D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+ZRSaveObject.h"; sourceTree = "<group>"; };
 		1CB0C1C61D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+ZRSaveObject.m"; sourceTree = "<group>"; };
-		1CB0C1CA1D7972CE00A3E6F5 /* UIButton+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZRAddition.h"; sourceTree = "<group>"; };
-		1CB0C1CB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZRAddition.m"; sourceTree = "<group>"; };
-		1CB0C1CD1D7972CE00A3E6F5 /* UIColor+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZRAddition.h"; sourceTree = "<group>"; };
-		1CB0C1CE1D7972CE00A3E6F5 /* UIColor+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZRAddition.m"; sourceTree = "<group>"; };
-		1CB0C1D11D7972CE00A3E6F5 /* UILabel+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZRAddition.h"; sourceTree = "<group>"; };
-		1CB0C1D21D7972CE00A3E6F5 /* UILabel+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZRAddition.m"; sourceTree = "<group>"; };
-		1CB0C1D41D7972CE00A3E6F5 /* ZRQRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRQRCodeImage.h; sourceTree = "<group>"; };
-		1CB0C1D51D7972CE00A3E6F5 /* ZRQRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRQRCodeImage.m; sourceTree = "<group>"; };
-		1CB0C1D71D7972CE00A3E6F5 /* UITextField+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZRAddition.h"; sourceTree = "<group>"; };
-		1CB0C1D81D7972CE00A3E6F5 /* UITextField+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZRAddition.m"; sourceTree = "<group>"; };
 		1CB0C1E01D7981BB00A3E6F5 /* ZRConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRConstant.h; sourceTree = "<group>"; };
 		1CB0C1E11D7981BB00A3E6F5 /* ZRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFoundation.h; sourceTree = "<group>"; };
 		1CB0C1E21D7981BB00A3E6F5 /* ZRKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRKit.h; sourceTree = "<group>"; };
@@ -52,6 +43,18 @@
 		1CFC5DB91D7832EE0026B341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CFC5DBA1D7832EE0026B341 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CFC5DBB1D7832EE0026B341 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C685B3781DA7F0FA00E99E2E /* UIButton+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZRAddition.h"; sourceTree = "<group>"; };
+		C685B3791DA7F0FA00E99E2E /* UIButton+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZRAddition.m"; sourceTree = "<group>"; };
+		C685B37B1DA7F0FA00E99E2E /* UIColor+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZRAddition.h"; sourceTree = "<group>"; };
+		C685B37C1DA7F0FA00E99E2E /* UIColor+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZRAddition.m"; sourceTree = "<group>"; };
+		C685B37E1DA7F0FA00E99E2E /* UIImage+HandlePictures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HandlePictures.h"; sourceTree = "<group>"; };
+		C685B37F1DA7F0FA00E99E2E /* UIImage+HandlePictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HandlePictures.m"; sourceTree = "<group>"; };
+		C685B3811DA7F0FA00E99E2E /* UILabel+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZRAddition.h"; sourceTree = "<group>"; };
+		C685B3821DA7F0FA00E99E2E /* UILabel+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZRAddition.m"; sourceTree = "<group>"; };
+		C685B3841DA7F0FA00E99E2E /* ZRQRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRQRCodeImage.h; sourceTree = "<group>"; };
+		C685B3851DA7F0FA00E99E2E /* ZRQRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRQRCodeImage.m; sourceTree = "<group>"; };
+		C685B3871DA7F0FA00E99E2E /* UITextField+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZRAddition.h"; sourceTree = "<group>"; };
+		C685B3881DA7F0FA00E99E2E /* UITextField+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZRAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,58 +125,14 @@
 		1CB0C1C81D7972CE00A3E6F5 /* ZRKit */ = {
 			isa = PBXGroup;
 			children = (
-				1CB0C1C91D7972CE00A3E6F5 /* ZRButton */,
-				1CB0C1CC1D7972CE00A3E6F5 /* ZRColor */,
-				1CB0C1D01D7972CE00A3E6F5 /* ZRLabel */,
-				1CB0C1D31D7972CE00A3E6F5 /* ZRQRCode */,
-				1CB0C1D61D7972CE00A3E6F5 /* ZRTextField */,
+				C685B3771DA7F0FA00E99E2E /* ZRButton */,
+				C685B37A1DA7F0FA00E99E2E /* ZRColor */,
+				C685B37D1DA7F0FA00E99E2E /* ZRImage */,
+				C685B3801DA7F0FA00E99E2E /* ZRLabel */,
+				C685B3831DA7F0FA00E99E2E /* ZRQRCode */,
+				C685B3861DA7F0FA00E99E2E /* ZRTextField */,
 			);
 			path = ZRKit;
-			sourceTree = "<group>";
-		};
-		1CB0C1C91D7972CE00A3E6F5 /* ZRButton */ = {
-			isa = PBXGroup;
-			children = (
-				1CB0C1CA1D7972CE00A3E6F5 /* UIButton+ZRAddition.h */,
-				1CB0C1CB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m */,
-			);
-			path = ZRButton;
-			sourceTree = "<group>";
-		};
-		1CB0C1CC1D7972CE00A3E6F5 /* ZRColor */ = {
-			isa = PBXGroup;
-			children = (
-				1CB0C1CD1D7972CE00A3E6F5 /* UIColor+ZRAddition.h */,
-				1CB0C1CE1D7972CE00A3E6F5 /* UIColor+ZRAddition.m */,
-			);
-			path = ZRColor;
-			sourceTree = "<group>";
-		};
-		1CB0C1D01D7972CE00A3E6F5 /* ZRLabel */ = {
-			isa = PBXGroup;
-			children = (
-				1CB0C1D11D7972CE00A3E6F5 /* UILabel+ZRAddition.h */,
-				1CB0C1D21D7972CE00A3E6F5 /* UILabel+ZRAddition.m */,
-			);
-			path = ZRLabel;
-			sourceTree = "<group>";
-		};
-		1CB0C1D31D7972CE00A3E6F5 /* ZRQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				1CB0C1D41D7972CE00A3E6F5 /* ZRQRCodeImage.h */,
-				1CB0C1D51D7972CE00A3E6F5 /* ZRQRCodeImage.m */,
-			);
-			path = ZRQRCode;
-			sourceTree = "<group>";
-		};
-		1CB0C1D61D7972CE00A3E6F5 /* ZRTextField */ = {
-			isa = PBXGroup;
-			children = (
-				1CB0C1D71D7972CE00A3E6F5 /* UITextField+ZRAddition.h */,
-				1CB0C1D81D7972CE00A3E6F5 /* UITextField+ZRAddition.m */,
-			);
-			path = ZRTextField;
 			sourceTree = "<group>";
 		};
 		1CFC5DAB1D7832BE0026B341 /* Example */ = {
@@ -213,6 +172,60 @@
 			path = ZRFlowerCocoa;
 			sourceTree = "<group>";
 		};
+		C685B3771DA7F0FA00E99E2E /* ZRButton */ = {
+			isa = PBXGroup;
+			children = (
+				C685B3781DA7F0FA00E99E2E /* UIButton+ZRAddition.h */,
+				C685B3791DA7F0FA00E99E2E /* UIButton+ZRAddition.m */,
+			);
+			path = ZRButton;
+			sourceTree = "<group>";
+		};
+		C685B37A1DA7F0FA00E99E2E /* ZRColor */ = {
+			isa = PBXGroup;
+			children = (
+				C685B37B1DA7F0FA00E99E2E /* UIColor+ZRAddition.h */,
+				C685B37C1DA7F0FA00E99E2E /* UIColor+ZRAddition.m */,
+			);
+			path = ZRColor;
+			sourceTree = "<group>";
+		};
+		C685B37D1DA7F0FA00E99E2E /* ZRImage */ = {
+			isa = PBXGroup;
+			children = (
+				C685B37E1DA7F0FA00E99E2E /* UIImage+HandlePictures.h */,
+				C685B37F1DA7F0FA00E99E2E /* UIImage+HandlePictures.m */,
+			);
+			path = ZRImage;
+			sourceTree = "<group>";
+		};
+		C685B3801DA7F0FA00E99E2E /* ZRLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C685B3811DA7F0FA00E99E2E /* UILabel+ZRAddition.h */,
+				C685B3821DA7F0FA00E99E2E /* UILabel+ZRAddition.m */,
+			);
+			path = ZRLabel;
+			sourceTree = "<group>";
+		};
+		C685B3831DA7F0FA00E99E2E /* ZRQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				C685B3841DA7F0FA00E99E2E /* ZRQRCodeImage.h */,
+				C685B3851DA7F0FA00E99E2E /* ZRQRCodeImage.m */,
+			);
+			path = ZRQRCode;
+			sourceTree = "<group>";
+		};
+		C685B3861DA7F0FA00E99E2E /* ZRTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C685B3871DA7F0FA00E99E2E /* UITextField+ZRAddition.h */,
+				C685B3881DA7F0FA00E99E2E /* UITextField+ZRAddition.m */,
+			);
+			path = ZRTextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,6 +258,7 @@
 				TargetAttributes = {
 					1C0C3AF81D77FF2500CFD4BD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7DAPKZUH5Z;
 					};
 				};
 			};
@@ -283,16 +297,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB0C1DD1D7972CE00A3E6F5 /* UILabel+ZRAddition.m in Sources */,
-				1CB0C1DF1D7972CE00A3E6F5 /* UITextField+ZRAddition.m in Sources */,
+				C685B3891DA7F0FA00E99E2E /* UIButton+ZRAddition.m in Sources */,
 				1CB0C1D91D7972CE00A3E6F5 /* NSString+ZREncryption.m in Sources */,
 				1CFC5DB71D7832BE0026B341 /* ZRRootViewController.m in Sources */,
-				1CB0C1DE1D7972CE00A3E6F5 /* ZRQRCodeImage.m in Sources */,
 				1CFC5DBE1D7832EE0026B341 /* main.m in Sources */,
-				1CB0C1DC1D7972CE00A3E6F5 /* UIColor+ZRAddition.m in Sources */,
-				1CB0C1DB1D7972CE00A3E6F5 /* UIButton+ZRAddition.m in Sources */,
+				C685B38A1DA7F0FA00E99E2E /* UIColor+ZRAddition.m in Sources */,
+				C685B38C1DA7F0FA00E99E2E /* UILabel+ZRAddition.m in Sources */,
 				1CB0C1DA1D7972CE00A3E6F5 /* NSUserDefaults+ZRSaveObject.m in Sources */,
+				C685B38D1DA7F0FA00E99E2E /* ZRQRCodeImage.m in Sources */,
+				C685B38E1DA7F0FA00E99E2E /* UITextField+ZRAddition.m in Sources */,
 				1CFC5DB61D7832BE0026B341 /* ZRAppDelegate.m in Sources */,
+				C685B38B1DA7F0FA00E99E2E /* UIImage+HandlePictures.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DAPKZUH5Z;
 				INFOPLIST_FILE = "Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZRFlower.ZRFlowerCocoa;
@@ -398,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DAPKZUH5Z;
 				INFOPLIST_FILE = "Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZRFlower.ZRFlowerCocoa;
